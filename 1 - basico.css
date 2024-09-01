@@ -5,7 +5,7 @@ body {
 }
 
 /* Altera propriedades do h1 */
-h1 {
+h1, h2 {
     /* Cor do texto */
     color:white;
 
@@ -20,4 +20,18 @@ p {
 
     /* Tamanho do texto */
     font-size: 25px;
+}
+
+#teste {
+    color:blueviolet;
+    font-size: 15px;
+}
+
+.direita {
+    text-align:right;
+}
+
+/* Altera todo elemento html (prioridade baixa) */
+* {
+    font-family: sans-serif;
 }
