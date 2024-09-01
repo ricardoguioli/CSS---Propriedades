@@ -1,3 +1,11 @@
+/* Comentários no Css */
 body {
+    /* Cor de Fundo do site inteiro */
     background-color: lightblue;
+}
+
+/* Altera propriedades do h1 */
+h1 {
+    color:white
+
 }
