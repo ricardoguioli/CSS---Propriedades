@@ -6,6 +6,18 @@ body {
 
 /* Altera propriedades do h1 */
 h1 {
-    color:white
+    /* Cor do texto */
+    color:white;
 
+    /* Alinha no centro */
+    text-align: center;
+
+}
+
+p {
+    /* Fonte */
+    font-family: verdana;
+
+    /* Tamanho do texto */
+    font-size: 25px;
 }
