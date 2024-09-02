@@ -1,10 +1,10 @@
-/* Comentários no Css */
+/* Comentários no CSS */
 body {
     /* Cor de Fundo do site inteiro */
     background-color: lightblue;
 }
 
-/* Altera propriedades do h1 */
+/* Altera propriedades do h1 e h2 */
 h1, h2 {
     /* Cor do texto */
     color:white;
@@ -14,6 +14,10 @@ h1, h2 {
 
 }
 
+div.um {
+    background-color: darkorange;
+}
+
 p {
     /* Fonte */
     font-family: verdana;
@@ -21,6 +25,12 @@ p {
     /* Tamanho do texto */
     font-size: 25px;
 }
+
+/* Somente os p da classe center serão afetados */
+p.center {
+    text-align: center;
+    color: red;
+  }
 
 #teste {
     color:blueviolet;
