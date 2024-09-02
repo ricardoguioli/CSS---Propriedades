@@ -7,39 +7,47 @@ body {
 /* Altera propriedades do h1 e h2 */
 h1, h2 {
     /* Cor do texto */
-    color:white;
+    color:tomato;
 
-    /* Alinha no centro */
+    /* Alinhamento */
     text-align: center;
 
-}
-
-div.um {
-    background-color: darkorange;
-}
-
-p {
     /* Fonte */
-    font-family: verdana;
+    font-family:'Times New Roman', Times, serif;
 
     /* Tamanho do texto */
     font-size: 25px;
+
+    /* fundo */
+    background-color:#8B0000;
+    
+    /* borda */
+    border:10px solid blue;
+
 }
+
+/* Classes */
+.direita {
+    text-align:right;
+}
+
+/* div com a classe "um" */
+div.um {
+    background-color: rgba(210, 105, 30, 1);
+}
+
 
 /* Somente os p da classe center serão afetados */
 p.center {
     text-align: center;
-    color: red;
   }
 
 #teste {
-    color:blueviolet;
-    font-size: 15px;
+    color:hsla(94, 46%, 41%, 0.375);
+    font-size: 20px;
 }
 
-.direita {
-    text-align:right;
-}
+
 
 /* Altera todo elemento html (prioridade baixa) */
 * {
