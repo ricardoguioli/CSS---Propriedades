@@ -1,0 +1,17 @@
+h1 {
+    background-color:burlywood;
+
+    /* cor rgb + transparencia */
+    color:rgba(255, 99, 71, 0.7);
+    /* ou color:#ff6347;
+    /* ou color:hsla(9, 100%, 64%, 0.7); */
+}
+
+h2 {
+    /* borda */
+    border:2px solid blue;
+}
+
+* {
+    text-align: center;
+}
