@@ -1,24 +1,46 @@
 body {
+    /* cor */
+    background-color:rgb(71, 170, 82);
+}
+
+h1 {
+    /* Imagem normal, já repete por padrão x e y */
+    background-image:url("images/golfinho.webp");
+    /* tamanho da imagem */
+    background-size:6%;
+
+    font-size: 100px;
+}
+
+h2 {
+    /* especificar repetição (repeat-y, no-repeat) */
+    background-repeat: repeat-x;
+
     background-image:url("images/girafa.jpg");
+    background-size: 10%;
+    font-size: 100px;
 
 }
 
-/*
-background-color:;
+h3 {
+    /* Posição da imagem */
+    background-position:right bottom;
+    
+    /* Deixa a imagem fixa na pagina. (padrão:scroll) */
+    background-attachment:fixed;
 
-background-repeat:;
-background-attachment:;
-background-position:;
+    background-image:url("images/golfinho.webp");
+    background-repeat:no-repeat;
+    font-size: 100px;
+    background-size: 250px;
+}
 
-Exemplos:
+/* OU */ 
 
-background-color:rgba(255, 99, 71, 1);
-background-image:;
-background-repeat:;
-background-attachment:;
-background-position:;
-*/
+h4 {
+    background: cyan url("images/girafa.jpg") repeat right top;
 
+}
 
 
 
