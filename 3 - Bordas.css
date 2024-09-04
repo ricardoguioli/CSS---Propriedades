@@ -1,0 +1,38 @@
+/* Tipos de bordas */
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+
+/* Vários (Sentido horário começando emcima) */
+p.mix {border-style: dotted dashed solid double;}
+
+/* Tamanho da borda geral */
+h1 {border-width:30px; border-style:solid;}
+
+/* Emcima e embaixo, Lados */
+h2 {border-width:5px 20px; border-style:solid;}
+
+/* Sentido Horário começando emcima */
+h3 {border-width:25px 10px 4px 35px; border-style:solid;}
+
+/* Cor da borda (Sentido Horário) */
+h4 {border-color:aquamarine; border-style: dotted;}
+h5 {border-color: blueviolet red coral green; border-style: solid;}
+
+/* Borda Especifica simplificado*/
+h6 {border-left: 6px solid red;}
+
+/* Arredondar borda (px é o tamanho do arredondamento) */
+p.round1 {border-radius: 8px; border:2px solid red;}
+
+
+
+
+

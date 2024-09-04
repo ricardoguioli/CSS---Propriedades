@@ -38,6 +38,7 @@ h3 {
 /* OU */ 
 
 h4 {
+    /* tudo em uma propriedade, nesse ordem. Pode faltar uma caracterisctica */
     background: cyan url("images/girafa.jpg") repeat right top;
 
 }
