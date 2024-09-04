@@ -28,6 +28,7 @@ h5 {border-color: blueviolet red coral green; border-style: solid;}
 
 /* Borda Especifica simplificado*/
 h6 {border-left: 6px solid red;}
+p.a {border-left-style: dotted}
 
 /* Arredondar borda (px é o tamanho do arredondamento) */
 p.round1 {border-radius: 8px; border:2px solid red;}

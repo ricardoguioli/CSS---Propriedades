@@ -1,0 +1,15 @@
+/* Margin (Cria espaço fora do conteúdo) */
+div.a {margin:50px; border:1px solid blue;}
+div.b {margin-right:25%; border:1px solid blue;}
+div.c {margin:25px 10% 15px 20px; border:1px solid blue;}
+
+/* margin auto (se o conteúdo tiver tamanho definido, ele centraliza automaticamente */
+div.d {margin:auto; width:500px; border:1px solid blue;}
+
+/* Padding (Cria espaço dentro do conteúdo) */
+div.e {padding:50px; border: 1px solid blue;}
+
+/* padding e width acumulam, para manter o tamanho desejado: */
+div.f {box-sizing:border-box; padding: 25px; width: 300px; border: 1px solid blue;}
+
+
