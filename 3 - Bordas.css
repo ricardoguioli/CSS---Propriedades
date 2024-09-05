@@ -33,6 +33,15 @@ p.a {border-left-style: dotted}
 /* Arredondar borda (px é o tamanho do arredondamento) */
 p.round1 {border-radius: 8px; border:2px solid red;}
 
+/* OUTLINE (são bordas mas colocadas fora delas, 
+pode passar por cima de outros conteúdos e o 
+tamanho total não é afetado) OBS.: Pode usar
+a maioria das propriedades das bordas. Ex.:
+outline-style, outline-width etc.. */
+p.outline {outline:17px solid green; border: 8px solid yellow;}
+
+/* Offset (a distancia entre a borda e o outline */
+p.offset {outline:5px solid green; outline-offset: 3px;}
 
 
 

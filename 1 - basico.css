@@ -34,6 +34,15 @@ h1, h2 {
 /* div com a classe "um" */
 div.um {
     background-color: rgba(210, 105, 30, 1);
+
+    /* Largura */
+    width: 600px;
+
+    /* Altura */
+    Height:80px;
+
+    /* Tamanho máximo (ele diminui se a janela for pequena demais */
+    max-width: 600px;
 }
 
 
